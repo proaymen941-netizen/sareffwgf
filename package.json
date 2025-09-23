@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "NODE_ENV=development npx tsx server/index.ts",
-    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "build": "vite build && esbuild server/index.ts --platform=node --bundle --format=esm --outdir=dist",
     "build:client": "vite build --outDir dist/client",
     "build:admin": "vite build --outDir dist/admin",
     "build:delivery": "vite build --outDir dist/delivery",
